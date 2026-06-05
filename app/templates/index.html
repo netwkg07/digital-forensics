@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>digital-forensics</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Synthetic Digital Forensics Lab</p>
+      <h1>digital-forensics</h1>
+      <p>
+        A clean Digital Forensics lab for evidence intake, chain of custody,
+        forensic timelines, artifact provenance, quality gates, and reporting.
+      </p>
+      <div class="hero-actions">
+        <a href="/docs" class="button">Open API Docs</a>
+        <a href="/health" class="button secondary">Health Check</a>
+      </div>
+    </div>
+
+    <div class="status-card">
+      <span>Project</span><strong>{{ project_name }}</strong>
+      <span>Safe Mode</span><strong>{{ safe_mode }}</strong>
+      <span>Data Mode</span><strong>{{ data_mode }}</strong>
+    </div>
+  </header>
+
+  <section class="notice">
+    <strong>Safety Statement:</strong>
+    This lab uses synthetic evidence only. Do not use real personal data,
+    credentials, private logs, or unauthorized evidence.
+  </section>
+
+  <main class="grid">
+    <section class="card">
+      <h2>Evidence Handling</h2>
+      <p>Track evidence sources, acquisition records, preservation steps, hash manifests, and custody events.</p>
+    </section>
+
+    <section class="card">
+      <h2>Chain of Custody</h2>
+      <p>Document who, what, when, where, why, transfer history, storage location, and integrity status.</p>
+    </section>
+
+    <section class="card">
+      <h2>Forensic Timeline</h2>
+      <p>Normalize events into a clear investigation timeline with confidence levels and artifact references.</p>
+    </section>
+
+    <section class="card">
+      <h2>Artifact Provenance</h2>
+      <p>Map every finding to an artifact, parser, method, timestamp, and repeatable validation step.</p>
+    </section>
+
+    <section class="card">
+      <h2>Quality Gates</h2>
+      <p>Check that evidence, findings, timestamps, limitations, and reports are complete before publishing.</p>
+    </section>
+
+    <section class="card">
+      <h2>Reports</h2>
+      <p>Create executive and technical summaries that explain what happened, what is supported, and what remains unknown.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>digital-forensics | safe synthetic DFIR portfolio lab</p>
+  </footer>
+</body>
+</html>
